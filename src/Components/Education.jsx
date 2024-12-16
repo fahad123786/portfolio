@@ -4,6 +4,7 @@ import myimg2 from '../Components/images/stylo.png'
 import myimg3 from '../Components/images/hamza.jpeg'
 import myimg4 from '../Components/images/frontend.jpeg'
 import myimg5 from '../Components/images/backend.png'
+import yes from '../Components/images/yes.png'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
@@ -95,8 +96,20 @@ const Education = () => {
       <Card.Body className='bg-black'>
         <Card.Title className='text-warning text-center'>Hamza Mart</Card.Title>
         <Card.Text className='text-white'>
-        Hamza Store is a trusted Pakistani retailer offering stylish and affordable products, \
+        Hamza Store is a trusted Pakistani retailer offering stylish and affordable products,
         including fashion, accessories, and home essentials, for all ages.
+        </Card.Text>
+      </Card.Body>
+    </Card>
+
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={yes} />
+      <Card.Body className='bg-black'>
+        <Card.Title className='text-warning text-center'>Yes Chapter 4</Card.Title>
+        <Card.Text className='text-white'>
+        YES is a platform designed to inspire, support, and showcase 
+        entrepreneurial ideas and talents of aspiring young entrepreneurs worldwide.
+
         </Card.Text>
       </Card.Body>
     </Card>
